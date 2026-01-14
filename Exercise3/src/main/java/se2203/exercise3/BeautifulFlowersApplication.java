@@ -14,7 +14,7 @@ public class BeautifulFlowersApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(BeautifulFlowersApplication.class.getResource("BeautifulFlowers-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.getIcons().add(new Image("src/main/resources/se2203/exercise3/WesternLogo.png"));
+        stage.getIcons().add(new Image(getClass().getResource("WesternLogo.png").toExternalForm()));
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
