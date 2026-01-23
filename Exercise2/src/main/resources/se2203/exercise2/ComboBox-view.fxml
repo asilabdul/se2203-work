@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<SplitPane dividerPositions="0.288961038961039" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="310.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se2203.exercise2.ComboBoxController">
+  <items>
+      <AnchorPane>
+         <children>
+            <Label prefHeight="17.0" prefWidth="85.0" text="Select a name" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="35.0" />
+            <ComboBox fx:id="nameComboBox" onAction="#comboBoxListener" prefWidth="150.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="30.0" />
+         </children>
+      </AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Label fx:id="nameLabel" alignment="TOP_CENTER" lineSpacing="2.0" prefHeight="102.0" prefWidth="142.0" text="Welcome" textAlignment="CENTER" textFill="RED" AnchorPane.leftAnchor="85.0" AnchorPane.topAnchor="60.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+  </items>
+</SplitPane>
