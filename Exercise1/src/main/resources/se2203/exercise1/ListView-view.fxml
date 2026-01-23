@@ -10,5 +10,5 @@
     </padding>
    <ListView fx:id="lvItem" onMouseClicked="#displaySelectedItem" prefHeight="100.0" prefWidth="200.0" />
 
-    <Label fx:id="selectedItem" alignment="BOTTOM_LEFT" prefHeight="17.0" prefWidth="255.0" />
+    <Label fx:id="selectedItem" alignment="BOTTOM_LEFT" prefHeight="17.0" prefWidth="232.0" />
 </VBox>
